@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="first submit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +64,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/GitHup_repository/reggie_take_out",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.62068963",
-    "settings.editor.selected.configurable": "debugger.stepping",
+    "settings.editor.selected.configurable": "vcs.Git",
     "settings.editor.splitter.proportion": "0.2988889",
     "spring.configuration.checksum": "31ee954601a2ac7573b0782bc2eec0b0"
   },
@@ -80,11 +81,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\common" />
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie" />
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\controller" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service\impl" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\resources" />
@@ -131,7 +132,16 @@
       <workItem from="1660996356535" duration="10319000" />
       <workItem from="1661068835650" duration="23365000" />
       <workItem from="1661094989453" duration="586000" />
+      <workItem from="1661103078011" duration="10265000" />
     </task>
+    <task id="LOCAL-00001" summary="first submit">
+      <created>1661103363336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661103363336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,10 +152,46 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first submit" />
   </component>
 </project>
