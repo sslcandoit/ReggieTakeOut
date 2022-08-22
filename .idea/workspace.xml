@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Correct some errors">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Add new functions for combo: add, query and delete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/filter/LoginCheckFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie/controller",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -85,11 +83,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\controller" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service\impl" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\resources" />
@@ -136,7 +134,7 @@
       <workItem from="1660996356535" duration="10319000" />
       <workItem from="1661068835650" duration="23365000" />
       <workItem from="1661094989453" duration="586000" />
-      <workItem from="1661103078011" duration="17589000" />
+      <workItem from="1661103078011" duration="23684000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661145137711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add new functions for combo: add, query and delete">
+      <created>1661153979412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661153979412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +217,7 @@
     <MESSAGE value="first submit" />
     <MESSAGE value="Add new functions: File upload &amp; download, Adding dishes, Paging query, Editing dishes" />
     <MESSAGE value="Correct some errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct some errors" />
+    <MESSAGE value="Add new functions for combo: add, query and delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new functions for combo: add, query and delete" />
   </component>
 </project>
