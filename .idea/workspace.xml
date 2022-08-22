@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="first submit">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Correct some errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/ReggieApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie/controller",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -81,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\controller" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service\impl" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\resources" />
@@ -132,7 +136,7 @@
       <workItem from="1660996356535" duration="10319000" />
       <workItem from="1661068835650" duration="23365000" />
       <workItem from="1661094989453" duration="586000" />
-      <workItem from="1661103078011" duration="10265000" />
+      <workItem from="1661103078011" duration="17589000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -141,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661103363336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new functions: File upload &amp; download, Adding dishes, Paging query, Editing dishes">
+      <created>1661144884793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661144884793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Correct some errors">
+      <created>1661145137711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661145137711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first submit" />
+    <MESSAGE value="Add new functions: File upload &amp; download, Adding dishes, Paging query, Editing dishes" />
+    <MESSAGE value="Correct some errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct some errors" />
   </component>
 </project>
