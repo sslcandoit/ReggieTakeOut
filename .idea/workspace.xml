@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Add new functions for customer: order and shopping cart">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Add some new functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +151,7 @@
       <workItem from="1660996356535" duration="10319000" />
       <workItem from="1661068835650" duration="23365000" />
       <workItem from="1661094989453" duration="586000" />
-      <workItem from="1661103078011" duration="44772000" />
+      <workItem from="1661103078011" duration="50258000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661331901572</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add some new functions">
+      <created>1661369422194</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661369422194</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +296,7 @@
     <MESSAGE value="Add new functions for customer: Short Message Service" />
     <MESSAGE value="Add new functions for customer's address management: add address, set default address, query address by id, query default address, query specific customer's all address" />
     <MESSAGE value="Add new functions for customer: order and shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new functions for customer: order and shopping cart" />
+    <MESSAGE value="Add some new functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some new functions" />
   </component>
 </project>

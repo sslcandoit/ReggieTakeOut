@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reggie TakeOut Management</title>
+  <title>Reggie Takeout Management</title>
   <link rel="shortcut icon" href="../../favicon.ico">
   <!-- 引入样式 -->
   <link rel="stylesheet" href="../../plugins/element-ui/index.css" />
@@ -29,11 +29,11 @@
             <img src="../../images/login/logo.png" style="width:139px;height:42px;" alt="" />
           </div>
           <el-form-item prop="username">
-            <el-input v-model="loginForm.username" type="text" auto-complete="off" placeholder="账号" maxlength="20"
+            <el-input v-model="loginForm.username" type="text" auto-complete="off" placeholder="Username" maxlength="20"
               prefix-icon="iconfont icon-user" />
           </el-form-item>
           <el-form-item prop="password">
-            <el-input v-model="loginForm.password" type="password" placeholder="密码" prefix-icon="iconfont icon-lock" maxlength="20"
+            <el-input v-model="loginForm.password" type="password" placeholder="Password" prefix-icon="iconfont icon-lock" maxlength="20"
               @keyup.enter.native="handleLogin" />
           </el-form-item>
           <el-form-item style="width:100%;">

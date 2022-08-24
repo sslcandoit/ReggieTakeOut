@@ -22,13 +22,13 @@
           class="continue"
           @click="addClass('class')"
         >
-          + 新增菜品分类
+          + Add Dish Category
         </el-button>
         <el-button
           type="primary"
           @click="addClass('meal')"
         >
-          + 新增套餐分类
+          + Add Combo Category
         </el-button>
       </div>
       <el-table
@@ -38,19 +38,19 @@
       >
         <el-table-column
           prop="name"
-          label="分类名称"
+          label="Name"
         /></el-table-column>
         <el-table-column
           prop="type"
-          label="分类类型"
+          label="Type"
         >
           <template slot-scope="scope">
-            <span>{{ scope.row.type == '1' ? '菜品分类': '套餐分类' }}</span>
+            <span>{{ scope.row.type == '1' ? 'Dish Category': 'Combo Category' }}</span>
           </template>
         </el-table-column>
         <el-table-column
           prop="updateTime"
-          label="操作时间"
+          label="Update Time"
         >
         <template slot-scope="scope">
          {{scope.row.updateTime}}
@@ -58,10 +58,10 @@
         </el-table-column>
         <el-table-column
           prop="sort"
-          label="排序"
+          label="Sorting"
         /></el-table-column>
         <el-table-column
-          label="操作"
+          label="Action"
           width="160"
           align="center"
         >
@@ -72,7 +72,7 @@
               class="blueBug"
               @click="editHandle(scope.row)"
             >
-              修改
+              Edit
             </el-button>
             <el-button
               type="text"
@@ -80,7 +80,7 @@
               class="delBut non"
               @click="deleteHandle(scope.row.id)"
             >
-              删除
+              Remove
             </el-button>
           </template>
         </el-table-column>
@@ -105,15 +105,15 @@
         class="demo-form-inline"
         label-width="100px"
       >
-        <el-form-item label="分类名称：">
+        <el-form-item label="Category Name：">
           <el-input
             v-model="classData.name"
-            placeholder="请输入分类名称"
+            placeholder="Please enter category name"
             maxlength="14"
           />
         </el-form-item>
-        <el-form-item label="排序：">
-          <el-input v-model="classData.sort"  type="number" placeholder="请输入排序" />
+        <el-form-item label="Sorting：">
+          <el-input v-model="classData.sort"  type="number" placeholder="Please enter sorting number" />
         </el-form-item>
       </el-form>
       <span
@@ -123,19 +123,19 @@
         <el-button
           size="medium"
           @click="classData.dialogVisible = false"
-        >取 消</el-button>
+        >Cancel</el-button>
         <el-button
           type="primary"
           size="medium"
           @click="submitForm()"
-        >确 定</el-button>
+        >Confirm</el-button>
         <el-button
           v-if="action != 'edit'"
           type="primary"
           size="medium"
           class="continue"
           @click="submitForm('go')"
-        > 保存并继续添加 </el-button>
+        > Save & Add </el-button>
       </span>
     </el-dialog>
   </div>
