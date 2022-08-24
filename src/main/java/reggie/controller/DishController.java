@@ -16,6 +16,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -126,6 +128,34 @@ public class DishController {
         return R.success("修改菜品成功");
     }
 
+    /**
+     * 停售起售菜品
+     * @param status
+     * @param ids
+     * @return
+     */
+    @PostMapping("/status/{status}")
+    public R<String> sale(@PathVariable int status, String[] ids){
+        for(String id:ids){
+            Dish dish= dishService.getById(id);
+            dish.setStatus(status);
+            dishService.updateById(dish);
+        }
+        return R.success("菜品售卖状态修改成功!");
+    }
+
+    /**
+     * 删除菜品
+     * @param ids
+     * @return
+     */
+    @DeleteMapping
+    public R<String> delete(String[] ids){
+        for(String id:ids){
+            dishService.removeById(id);
+        }
+        return R.success("菜品删除成功");
+    }
     /**
      * 根据条件查询对应的菜品数据
      * @param dish

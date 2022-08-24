@@ -125,4 +125,52 @@ public class SetmealController {
 
         return R.success(list);
     }
+
+    /**
+     * 根据ID查询套餐信息
+     * @param id
+     * @return
+     */
+    @GetMapping("/{id}")
+    public R<SetmealDto> getById(@PathVariable Long id) {
+        SetmealDto setmealDto = setmealService.getByIdWithDish(id);
+
+        return R.success(setmealDto);
+    }
+    //修改套餐
+    @PutMapping
+    public R<String> update(@RequestBody SetmealDto setmealDto){
+        setmealService.updateWithDish(setmealDto);
+        return R.success("修改成功");
+    }
+
+    /*
+    @DeleteMapping
+    public R<String> delete(String[] ids){
+        int index=0;
+        for(String id:ids) {
+            Setmeal setmeal = setmealService.getById(id);
+            if(setmeal.getStatus()!=1){
+                setmealService.removeById(id);
+            }else {
+                index++;
+            }
+        }
+        if (index>0&&index==ids.length){
+            return R.error("选中的套餐均为启售状态，不能删除");
+        }else {
+            return R.success("删除成功");
+        }
+    }
+    */
+
+    @PostMapping("/status/{status}")
+    public R<String> sale(@PathVariable int status,String[] ids){
+        for (String id:ids){
+            Setmeal setmeal = setmealService.getById(id);
+            setmeal.setStatus(status);
+            setmealService.updateById(setmeal);
+        }
+        return R.success("修改成功");
+    }
 }
