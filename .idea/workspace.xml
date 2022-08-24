@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Add new functions for customer: Short Message Service">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Add new functions for customer's address management: add address, set default address, query address by id, query default address, query specific customer's all address">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/SetmealController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +84,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\controller" />
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service\impl" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service" />
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +134,7 @@
       <workItem from="1660996356535" duration="10319000" />
       <workItem from="1661068835650" duration="23365000" />
       <workItem from="1661094989453" duration="586000" />
-      <workItem from="1661103078011" duration="24805000" />
+      <workItem from="1661103078011" duration="29353000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -170,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661166066895</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add new functions for customer's address management: add address, set default address, query address by id, query default address, query specific customer's all address">
+      <created>1661324624669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661324624669</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +233,7 @@
     <MESSAGE value="Correct some errors" />
     <MESSAGE value="Add new functions for combo: add, query and delete" />
     <MESSAGE value="Add new functions for customer: Short Message Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new functions for customer: Short Message Service" />
+    <MESSAGE value="Add new functions for customer's address management: add address, set default address, query address by id, query default address, query specific customer's all address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new functions for customer's address management: add address, set default address, query address by id, query default address, query specific customer's all address" />
   </component>
 </project>
