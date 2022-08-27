@@ -1,5 +1,17 @@
 # ReggieTakeOut
 
+#### Tools:
+Git | Maven | Junit
+#### Presentation tier:
+H5 | VUE.js | ElementUI
+#### Gateway tier: 
+Nginx
+#### Application tier:
+Spring Boot | Spring MVC | Spring Session | Spring | Swagger | Lombok
+#### Data tier:
+Mysql | Redis | Mybatis | Mybatis Plus
+***
+
 ## For Management: 
 ![Screenshot of back management system](src/main/resources/front/images/backend.png)
 #### Employee Management:
