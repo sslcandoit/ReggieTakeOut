@@ -13,7 +13,7 @@ Mysql | Redis | Mybatis | Mybatis Plus
 ***
 
 ## For Management: 
-![Screenshot of back management system](src/main/resources/front/images/backend.png)
+![Screenshot of back management system](src/main/resources/front/images/p1.png)
 #### Employee Management:
 + Login & Logout
 + Add new employee
