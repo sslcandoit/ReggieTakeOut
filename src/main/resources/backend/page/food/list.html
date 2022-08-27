@@ -16,7 +16,7 @@
       <div class="tableBar">
         <el-input
           v-model="input"
-          placeholder="Please enter dish name"
+          placeholder="Please enter cuisine name"
           style="width: 250px"
           clearable
           @keyup.enter.native="handleQuery"
@@ -52,7 +52,7 @@
         ></el-table-column>
         <el-table-column
           prop="name"
-          label="Dish Name"
+          label="Name"
         ></el-table-column>
         <el-table-column prop="image" label="Picture" align="center">
           <template slot-scope="{ row }">
@@ -67,7 +67,7 @@
         </el-table-column>
         <el-table-column
           prop="categoryName"
-          label="Dish Category"
+          label="Category"
         ></el-table-column>
         <el-table-column label="Price">
           <template slot-scope="scope">
@@ -118,14 +118,13 @@
         </el-table-column>
       </el-table>
       <el-pagination
-        class="pageList"
-        :page-sizes="[10, 20, 30, 40]"
-        :page-size="pageSize"
-        layout="total, sizes, prev, pager, next, jumper"
-        :total="counts"
-        @size-change="handleSizeChange"
-        :current-page.sync="page"
-        @current-change="handleCurrentChange"
+              class="pageList"
+              layout="prev, pager, next"
+              :page-size="10"
+              :total="counts"
+              :current-page.sync="page"
+              @size-change="handleSizeChange"
+              @current-change="handleCurrentChange"
       ></el-pagination>
     </div>
   </div>
