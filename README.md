@@ -7,6 +7,7 @@
 + Edit employee's infomation
 + Show list of employee's infomation by page
 + Disable & Enable 
++ Search with employee's name
 
 #### Category Management:
 + Add new category
@@ -20,6 +21,7 @@
 + Show list of cusines by page
 + (Batch)Remove
 + (Batch)Enable sale & Disable sale
++ Search with cuisine name
 
 #### Combo Management:
 + Add new combo with file upload and download
@@ -27,6 +29,7 @@
 + Show list of combos by page
 + (Batch)Remove
 + (Batch)Enable sale & Disable sale
++ Search with combo name
 
 #### Order Management:
 + Show list of orders by page
