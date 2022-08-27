@@ -5,7 +5,7 @@
 + Login & Logout
 + Add new employee
 + Edit employee's infomation
-+ Show list of employee's infomation by list
++ Show list of employee's infomation by page
 + Disable & Enable 
 
 #### Category Management:
