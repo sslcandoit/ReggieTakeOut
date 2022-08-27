@@ -60,17 +60,17 @@
       >
         <div>
           <el-form-item
-            label="Dish Name:"
+            label="Name:"
             prop="name"
           >
             <el-input
               v-model="ruleForm.name"
-              placeholder="Please enter dish name"
+              placeholder="Please enter cuisine name"
               maxlength="20"
             />
           </el-form-item>
           <el-form-item
-            label="Dish Category:"
+            label="Category:"
             prop="categoryId"
           >
             <el-select
@@ -536,7 +536,7 @@
             window.parent.menuHandle({
               id: '4',
               url: '/backend/page/food/list.html',
-              name: '菜品管理'
+              name: 'Cuisine Management'
             },false)
           }
         }

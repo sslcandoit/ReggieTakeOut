@@ -19,7 +19,7 @@
     <div id="user" class="app">
         <div class="divHead">
             <div class="divTitle">
-                <i class="el-icon-arrow-left" @click="goBack"></i>个人中心
+                <i class="el-icon-arrow-left" @click="goBack"></i>Account Management
             </div>
             <div class="divUser">
                 <img src="./../images/headPage.png"/>
@@ -33,18 +33,18 @@
             <div class="divLinks">
                 <div class="item" @click="toAddressPage">
                     <img src="./../images/locations.png"/>
-                    <span>地址管理</span>
+                    <span>Address Management</span>
                     <i class="el-icon-arrow-right"></i>
                 </div>
                 <div class="divSplit"></div>
                 <div class="item" @click="toOrderPage">
                     <img src="./../images/orders.png"/>
-                    <span>历史订单</span>
+                    <span>History Orders</span>
                     <i class="el-icon-arrow-right"></i>
                 </div>
             </div>
             <div class="divOrders" v-if="order[0]">
-                <div class="title">最新订单</div>
+                <div class="title">Latest Order</div>
                 <div class="timeStatus">
                     <span>{{order[0].orderTime}}</span>
                     <span>{{getStatus(order[0].status)}}</span>
@@ -57,15 +57,15 @@
                     </div>
                 </div>
                 <div class="result">
-                    <span>共{{order[0].sumNum}} 件商品,实付</span>
-                    <span class="price">￥{{order[0].amount}}</span>
+                    <span>{{order[0].sumNum}} items in total,payment amount</span>
+                    <span class="price">${{order[0].amount}}</span>
                 </div>
                 <div class="btn" v-if="order[0].status === 4">
-                    <div class="btnAgain" @click="addOrderAgain">再来一单</div>
+                    <div class="btnAgain" @click="addOrderAgain">order more</div>
                 </div>
             </div>
             <div class="quitLogin" @click="toPageLogin">
-                退出登录
+                Logout
             </div>
         </div>
     </div>

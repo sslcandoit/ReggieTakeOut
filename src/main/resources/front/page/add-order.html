@@ -21,7 +21,7 @@
         <div id="add_order" class="app">
             <div class="divHead">
                 <div class="divTitle">
-                    <i class="el-icon-arrow-left" @click="goBack"></i>菩提阁
+                    <i class="el-icon-arrow-left" @click="goBack"></i>Reggie
                 </div>
             </div>
             <div class="divContent">
@@ -29,16 +29,16 @@
                     <div @click="toAddressPage">                    
                         <div class="address">{{address.detail}}</div>
                         <div class="name">
-                            <span>{{address.consignee}}{{address.sex === '1' ? '先生':'女士'}}</span>
+                            <span>{{address.consignee}}{{address.sex === '1' ? 'Mr':'Ms'}}</span>
                             <span>{{address.phone}}</span>
                         </div>
                         <i class="el-icon-arrow-right"></i>
                     </div>
                     <div class="divSplit"></div>
-                    <div class="divFinishTime">预计{{finishTime}}送达</div>
+                    <div class="divFinishTime">About{{finishTime}}Delivery</div>
                 </div>
                 <div class="order">
-                    <div class="title">订单明细</div>
+                    <div class="title">Order Details</div>
                     <div class="divSplit"></div>
                     <div class="itemList">
                         <div class="item" v-for="(item,index) in cartData" :key="index">
@@ -59,14 +59,14 @@
                     </div>
                 </div>
                 <div class="note">
-                    <div class="title">备注</div>
+                    <div class="title">Note</div>
                     <van-field
                         v-model="note"
                         rows="2"
                         autosize
                         type="textarea"
                         maxlength="50"
-                        placeholder="请输入您需要备注的信息"
+                        placeholder="Please enter your notes"
                         show-word-limit
                     />
                 </div>

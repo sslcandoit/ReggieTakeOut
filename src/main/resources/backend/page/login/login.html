@@ -74,7 +74,7 @@
         loginRules() {
           const validateUsername = (rule, value, callback) => {
             if (value.length < 1 ) {
-              callback(new Error('Pease enter your user name:'))
+              callback(new Error('Please enter your user name:'))
             } else {
               callback()
             }
