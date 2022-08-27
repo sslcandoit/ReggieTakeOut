@@ -1,7 +1,7 @@
 # ReggieTakeOut
 
 ## For Management: 
-![Screenshot of back management system](F:\image_folder\backend.png)
+![Screenshot of back management system](src/main/resources/front/images/backend.png)
 #### Employee Management:
 + Login & Logout
 + Add new employee
