@@ -82,7 +82,7 @@
           <div :class="{imgCartActive: cartData && cartData.length > 0, imgCart:!cartData || cartData.length<1}" @click="openCart"></div>
           <div :class="{divGoodsNum:1===1, moreGoods:cartData && cartData.length > 99}" v-if="cartData && cartData.length > 0">{{ goodsNum }}</div>
           <div class="divNum">
-              <span>￥</span>
+              <span>$</span>
               <span>{{goodsPrice}}</span>
           </div>
           <div class="divPrice"></div>

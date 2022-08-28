@@ -37,7 +37,7 @@ public class LoginCheckFilter implements Filter{
                 "/employee/logout",
                 "/backend/**",
                 "/front/**",
-                "/user/sendMsg",// /user/code
+                "/user/sendMsg",
                 "/user/login"
         };
 

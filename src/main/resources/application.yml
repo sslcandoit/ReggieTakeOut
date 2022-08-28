@@ -20,3 +20,17 @@ mybatis-plus:
 
 reggie:
   path: D:\img\
+
+tencent:
+  sms:
+    secretId: AKIDa0B7nEQM3UgfPu99tOddNs77rMbbMr66
+    secretKey: mKdgU2LOBj14sQilY5NPBiz1nKbdPva0
+    sdkAppId: 1400684835
+    templateId: 1416184
+    signName: 安逸i个人网站
+
+redis:
+  host: 119.91.237.21
+  port: 6379
+  password: 123456
+  database: 0
