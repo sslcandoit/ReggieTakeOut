@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="small corrections.">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="revise: sms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/utils/SMSUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/utils/ValidateCodeUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +152,7 @@
       <workItem from="1661094989453" duration="586000" />
       <workItem from="1661103078011" duration="60548000" />
       <workItem from="1661604425345" duration="7737000" />
-      <workItem from="1661614085428" duration="23487000" />
+      <workItem from="1661614085428" duration="37659000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -236,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661616752397</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="revise: sms">
+      <created>1661706053293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661706053293</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +335,7 @@
     <MESSAGE value="Add some new functions" />
     <MESSAGE value="Make some small changes" />
     <MESSAGE value="small corrections." />
-    <option name="LAST_COMMIT_MESSAGE" value="small corrections." />
+    <MESSAGE value="revise: sms" />
+    <option name="LAST_COMMIT_MESSAGE" value="revise: sms" />
   </component>
 </project>

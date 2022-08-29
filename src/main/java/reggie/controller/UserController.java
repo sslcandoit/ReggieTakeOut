@@ -43,7 +43,7 @@ public class UserController {
         String code= RandomUtil.randomNumbers(6);
         log.info("code={}", code);
 
-       // smsService.sendCode(phone, code);
+        //smsService.sendCode(phone, code);
 
         redisTemplate.opsForValue().set("code:"+phone, code, 5, TimeUnit.MINUTES);
 
@@ -68,7 +68,7 @@ public class UserController {
 
         //从redis(Session)中获取保存的验证码
         //Object codeInSession = session.getAttribute(phone);
-        Object codeInRedis = redisTemplate.opsForValue().get((phone));
+        Object codeInRedis = redisTemplate.opsForValue().get(("code:"+phone));
 
         //进行验证码的比对（页面提交的验证码和Session中保存的验证码比对）
         if(codeInRedis != null && codeInRedis.equals(code)){

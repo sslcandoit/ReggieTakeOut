@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no,minimal-ui">
-        <title>Reggie</title>
+        <title>Reggie Restaurant</title>
         <link rel="icon" href="./../images/favico.ico">
         <!--不同屏幕尺寸根字体设置-->
         <script src="./../js/base.js"></script>
@@ -21,7 +21,7 @@
         <div id="add_order" class="app">
             <div class="divHead">
                 <div class="divTitle">
-                    <i class="el-icon-arrow-left" @click="goBack"></i>Reggie
+                    <i class="el-icon-arrow-left" @click="goBack"></i>Reggie Restaurant
                 </div>
             </div>
             <div class="divContent">
@@ -35,7 +35,7 @@
                         <i class="el-icon-arrow-right"></i>
                     </div>
                     <div class="divSplit"></div>
-                    <div class="divFinishTime">About{{finishTime}}Delivery</div>
+                    <div class="divFinishTime">Estimated Delivery Time: {{finishTime}}</div>
                 </div>
                 <div class="order">
                     <div class="title">Order Details</div>
@@ -75,11 +75,11 @@
                 <div :class="{imgCartActive: cartData && cartData.length > 0, imgCart:!cartData || cartData.length<1}"></div>
                 <div :class="{divGoodsNum:1===1, moreGoods:cartData && cartData.length > 99}" v-if="cartData && cartData.length > 0">{{ goodsNum }}</div>
                 <div class="divNum">
-                    <span>￥</span>
+                    <span>$</span>
                     <span>{{goodsPrice}}</span>
                 </div>
                 <div class="divPrice"></div>
-                <div :class="{btnSubmitActive: cartData && cartData.length > 0, btnSubmit:!cartData || cartData.length<1}" @click="goToPaySuccess">去支付</div>
+                <div :class="{btnSubmitActive: cartData && cartData.length > 0, btnSubmit:!cartData || cartData.length<1}" @click="goToPaySuccess">Click to Pay</div>
               </div>
         </div>
         <!-- 开发环境版本，包含了有帮助的命令行警告 -->
