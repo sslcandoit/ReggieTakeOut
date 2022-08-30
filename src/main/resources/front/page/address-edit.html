@@ -27,7 +27,7 @@
             <div class="divContent">
                 <div class="divItem">
                    <span>Receiver：</span>
-                   <el-input placeholder=" Please enter receiver's name" v-model="form.consignee"  maxlength='10' class="inputUser"/></el-input>
+                   <el-input placeholder=" Please enter receiver" v-model="form.consignee"  maxlength='10' class="inputUser"/></el-input>
                    <span class="spanChecked" @click="form.sex = '1'">
                     <i :class="{iActive:form.sex === '1'}"></i>
                     Mr
@@ -39,7 +39,7 @@
                 </div>
                 <div class="divItem">
                     <span>Phone：</span>
-                    <el-input placeholder=" Please enter your phone number" v-model="form.phone"  maxlength='20' style="width: calc(100% - 80rem);"/></el-input>
+                    <el-input placeholder=" Please enter phone number" v-model="form.phone"  maxlength='20' style="width: calc(100% - 80rem);"/></el-input>
                 </div>
                 <div class="divItem">
                     <span>Address：</span>
@@ -75,10 +75,10 @@
                             phone:undefined,//手机号
                             sex:'1',//0表示女 1 表示男
                             detail:'',//收货地址
-                            label:'公司',//标签
+                            label:'Work',//标签
                         },
                         labelList:[
-                            'None','Company','Home','School'
+                            'None','Work','Home','School'
                         ],
                         id:undefined,
                         activeIndex :0

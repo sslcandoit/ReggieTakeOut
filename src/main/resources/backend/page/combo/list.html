@@ -76,12 +76,12 @@
           label="Combo Price"
         >
           <template slot-scope="scope">
-            <span>￥{{ scope.row.price/100 }}</span>
+            <span>${{ scope.row.price/100 }}</span>
           </template>
         </el-table-column>
         <el-table-column label="Status">
           <template slot-scope="scope">
-            <span>{{ scope.row.status == '0' ? 'Disabled Sale' : 'Enable Sale' }}</span>
+            <span>{{ scope.row.status == '0' ? 'Sold Out' : 'On Sale' }}</span>
           </template>
         </el-table-column>
         <el-table-column

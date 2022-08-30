@@ -75,7 +75,7 @@
         <el-table-column prop="orderTime" label="Order Time" min-width="100"></el-table-column>
         <el-table-column prop="amount" label="Amount Received">
           <template slot-scope="{ row }">
-            <span>￥{{ row.amount }}</span>
+            <span>${{ row.amount }}</span>
           </template>
         </el-table-column>
         <el-table-column prop="btn" label="Action">
@@ -114,7 +114,7 @@
     >
       <div class="info-box">
         <div class="item-box">
-          <span class="label">Order Number：</span>
+          <span class="label">Order No.：</span>
           <span class="des">{{ diaForm.number }}</span>
         </div>
         <div class="item-box">
@@ -126,7 +126,7 @@
           <span class="des">{{ diaForm.consignee }}</span>
         </div>
         <div class="item-box">
-          <span class="label">Contact Phone：</span>
+          <span class="label">Phone：</span>
           <span class="des">{{ diaForm.phone }}</span>
         </div>
         <div class="item-box">
@@ -134,7 +134,7 @@
           <span class="des">{{ diaForm.address }}</span>
         </div>
         <div class="item-box">
-          <span class="label">Payment Amount：</span>
+          <span class="label">Paid：</span>
           <span class="des">{{ diaForm.amount }}</span>
         </div>
         <div class="item-box">

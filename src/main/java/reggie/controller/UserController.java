@@ -98,8 +98,8 @@ public class UserController {
      * @param request
      * @return
      */
-    @PostMapping("/logout")
-    public R<String> logout(HttpServletRequest request){
+    @PostMapping("/loginout")
+    public R<String> loginout(HttpServletRequest request){
         request.getSession().removeAttribute("user");
         return R.success("Sucessfully Logout");
     }
