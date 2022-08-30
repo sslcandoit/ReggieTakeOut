@@ -46,6 +46,7 @@ public class UserController {
 
         //smsService.sendCode(phone, code);
 
+        //session.setAttribute(phone, code);
         redisTemplate.opsForValue().set("code:"+phone, code, 5, TimeUnit.MINUTES);
 
         return R.success("发送验证码成功！");
