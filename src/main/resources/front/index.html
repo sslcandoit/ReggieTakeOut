@@ -56,7 +56,7 @@
               <div>
                 <div class="divName">{{item.name}}</div>
                 <div class="divDesc">{{item.description}}</div>
-                <div class="divDesc">{{(item.saleNum ? item.saleNum : 0)+ ' Sold/Month'}}</div>
+                <div class="divDesc">{{(item.saleNum ? item.saleNum : 0)+ ' Sold/M'}}</div>
                 <div class="divBottom"><span>$</span><span>{{item.price/100}}</span></div>
                 <div class="divNum">
                   <div class="divSubtract" v-if="item.number > 0">
@@ -198,13 +198,13 @@
             </div>
           <div class="divNum">
               <div class="left">
-                <span>$</span><span>{{item.amount/100}}</span>
+                <span>$</span><span>{{setMealDialog.item.amount/100}}</span>
               </div>
               <div class="right">
                   <div class="divSubtract" v-if="setMealDialog.item.number > 0">
                     <img src="./images/subtract.png" @click="subtractCart(setMealDialog.item)"/>
                   </div>
-                  <div class="divDishNum">{{item.number}}</div>
+                  <div class="divDishNum">{{setMealDialog.item.number}}</div>
                   <div class="divAdd" v-if="setMealDialog.item.number">
                     <img src="./images/add.png" @click="addCart(setMealDialog.item)"/>
                   </div>
@@ -275,7 +275,7 @@
               this.cartData.forEach(item=>{
                 price += (item.number * item.amount)
               })
-              return price
+              return price.toPrecision(4)
             }
           },
           created(){

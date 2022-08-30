@@ -14,6 +14,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -90,6 +91,17 @@ public class UserController {
             return R.success(user);
         }
         return R.error("登录失败");
+    }
+
+    /**
+     * 用户登出功能
+     * @param request
+     * @return
+     */
+    @PostMapping("/logout")
+    public R<String> logout(HttpServletRequest request){
+        request.getSession().removeAttribute("user");
+        return R.success("Sucessfully Logout");
     }
 
 }

@@ -2,6 +2,7 @@ package reggie.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import reggie.common.BaseContext;
+import reggie.common.CustomException;
 import reggie.common.R;
 import reggie.entity.ShoppingCart;
 import reggie.service.ShoppingCartService;
@@ -69,6 +70,55 @@ public class ShoppingCartController {
 
         return R.success(cartServiceOne);
     }
+
+    /**
+     * 减少购物车
+     * @param shoppingCart
+     * @return
+     */
+    @PostMapping("/sub")
+    public R<ShoppingCart> sub(@RequestBody ShoppingCart shoppingCart){
+        log.info("购物车数据:{}",shoppingCart);
+
+        //设置用户id，指定当前是哪个用户的购物车数据
+        Long currentId = BaseContext.getCurrentId();
+        shoppingCart.setUserId(currentId);
+
+        Long dishId = shoppingCart.getDishId();
+
+        LambdaQueryWrapper<ShoppingCart> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(ShoppingCart::getUserId,currentId);
+
+        if(dishId != null){
+            //添加到购物车的是菜品
+            queryWrapper.eq(ShoppingCart::getDishId,dishId);
+        }else{
+            //添加到购物车的是套餐
+            queryWrapper.eq(ShoppingCart::getSetmealId,shoppingCart.getSetmealId());
+        }
+        //查询当前菜品或者套餐是否在购物车中
+        //SQL:select * from shopping_cart where user_id = ? and dish_id/setmeal_id = ?
+        ShoppingCart cartServiceOne = shoppingCartService.getOne(queryWrapper);
+
+        if(cartServiceOne != null){
+            //如果已经存在，就在原来数量基础上减一
+            Integer number = cartServiceOne.getNumber();
+            if (number > 1){
+                // 如果不小于1，就让数量减一
+                cartServiceOne.setNumber(number -1);
+                shoppingCartService.updateById(cartServiceOne);
+            }else {
+                // 如果商品数量是1，就购物车中删除该商品
+                shoppingCartService.remove(new LambdaQueryWrapper<ShoppingCart>().eq(ShoppingCart::getId,cartServiceOne.getId()));
+            }
+        }else{
+            throw new CustomException("该商品还不在购物车内");
+        }
+        return R.success(cartServiceOne);
+    }
+
+
+
 
     /**
      * 查看购物车

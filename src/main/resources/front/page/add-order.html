@@ -50,9 +50,9 @@
                             <div class="desc">
                                 <div class="name">{{item.name}}</div>
                                 <div class="numPrice">
-                                    <span class="num">x{{item.number}}</span>
+                                    <span class="num"> x {{item.number}}</span>
                                     <div class="price">
-                                        <span class="spanMoney">￥</span>{{item.amount}}</div>
+                                        <span class="spanMoney">$</span>{{item.amount}}</div>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                     this.cartData.forEach(item=>{
                         price += (item.number * item.amount)
                     })
-                    return price
+                    return price.toPrecision(4)
                     }
                 },
                 created(){

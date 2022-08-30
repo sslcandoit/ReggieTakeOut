@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="revise: sms">
+    <list default="true" id="f60e409f-0bd9-44bf-bd63-a8dad6a0dee6" name="Changes" comment="Make some corrections for front pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/ShoppingCartController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reggie/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
@@ -81,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/resources/front/images",
+    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/reggie_take_out/src/main/java/reggie/dto",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -98,11 +96,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\dto" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\resources\front\images" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\controller" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\mapper" />
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service\impl" />
-      <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\java\reggie\service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\reggie_take_out\src\main\resources" />
@@ -152,7 +150,7 @@
       <workItem from="1661094989453" duration="586000" />
       <workItem from="1661103078011" duration="60548000" />
       <workItem from="1661604425345" duration="7737000" />
-      <workItem from="1661614085428" duration="37659000" />
+      <workItem from="1661614085428" duration="48291000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1661103363336</created>
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661706053293</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Make some corrections for front pages">
+      <created>1661780884796</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1661780884796</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +341,7 @@
     <MESSAGE value="Make some small changes" />
     <MESSAGE value="small corrections." />
     <MESSAGE value="revise: sms" />
-    <option name="LAST_COMMIT_MESSAGE" value="revise: sms" />
+    <MESSAGE value="Make some corrections for front pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some corrections for front pages" />
   </component>
 </project>
