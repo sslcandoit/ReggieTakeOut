@@ -11,7 +11,16 @@ Spring Boot | Spring MVC | Spring Session | Spring | Swagger | Lombok
 #### Data tier:
 Mysql | Redis | Mybatis | Mybatis Plus
 ***
-
+## For Customer(Mobile):
++ Login by phone number
++ Personal Account Management
++ Address Management
++ History orders
++ Shopping Cart
++ Add to shopping cart 
++ Clear shopping cart
++ Checkout
+***
 ## For Management: 
 ![Screenshot of back management system](src/main/resources/front/images/p1.png)
 #### Employee Management:
@@ -47,17 +56,8 @@ Mysql | Redis | Mybatis | Mybatis Plus
 #### Order Management:
 + Show list of orders by page
 + Search specific order with order number, start day and end day
-***
 
-## For Customer(Mobile):
-+ Login by phone number
-+ User Management
-+ Address Management
-+ History orders
-+ Shopping Cart
-+ Add to shopping cart 
-+ Clear shopping cart
-+ Checkout
+
 
 
 
